@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # Expose the port the application will run on
-EXPOSE 3004
+EXPOSE 3000
 
 # Start the Koa application
 CMD ["node", "gateway.js"]
